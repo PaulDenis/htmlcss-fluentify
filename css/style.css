@@ -5,3 +5,74 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* header */
+
+header {
+    height: 600px;
+    background-color: #0c325a;
+}
+
+.header-nav {
+    height: 80px;
+    line-height: 80px;
+}
+
+.logo {
+    width: 15%;
+    height: 100%;
+    /* padding: 15px 0; */
+}
+.logo img {
+    vertical-align: middle;
+}
+
+.left-nav {
+    width: 45%;
+    height: 100%;
+    text-align: left;
+}
+
+.right-nav {
+    width: 40%;
+    height: 100%;
+    text-align: right;
+}
+
+.jumbotron {
+    height: 520px;
+}
+.list-inline {
+    list-style: none;
+}
+.list-inline li {
+    display: inline-block;
+    margin: 0 10px;
+}
+.list-inline a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.list-inline a:hover {
+    color: #7cbb02;
+}
